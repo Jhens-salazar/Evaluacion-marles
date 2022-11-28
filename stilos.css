@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+h1{
+    color: white;
+}
+.contenedor{
+    display: flex;
+    height: 99.8vh;
+    flex-direction: column;
+    border: 1px solid;
+    background-color: black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: -moz-linear-gradient(0deg, rgb(54, 31, 48)0%, rgb(45, 92, 109)59%);
+}
+.primer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.buscador{
+    background-color: rgb(63, 62, 62);
+    padding-left: 15px;
+    display: flex;
+    width: 540px;
+    height: 40px;
+    border-radius: 25px;
+}
+#bus{
+    display: flex;
+    color: white;
+    padding-left: -20px;
+    width: 25px;
+    height: 25px;
+    background-color:rgb(0, 153, 255) ;
+    border-radius: 50%;
+}
+.buscador>input{
+    background-color:rgb(63, 62, 62) ;
+    outline: none;
+    border: none;
+    color: white;
+}
+.segund{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 0px;
+    width: 400px;
+
+}
+.login{
+    display: flex;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    
+}
+.login>button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background: none;
+}
+.login>button>h1{
+    color: white;
+}
+.sign{
+    display: flex;
+    background: -moz-linear-gradient(98.89deg, rgb(0, 238, 255) 0%, rgb(0, 68, 255)100%);
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}
+.sign>button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: none;
+}
+.sign>button>h1{
+    color: white;
+}
+.other{
+    display: flex;
+    background-color: #696b6c;
+    flex-direction: row;
+    padding-left: 3px;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+.other>button{
+    width: 70px;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    background: none;
+    border: none;
+}
+.other>button>span{
+    width: 30px;
+    height: 30px;
+}
+#group{
+    align-items: center;
+    border-radius: 50px;
+    background-color:rgb(0, 153, 255);
+}
+#key{
+    color: white;
+}
+.separador{
+    display: flex;
+}
+.container{
+    display: flex;
+    
+}
+.barralat{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 10px;
+    align-items: center;
+    width: 150px;
+    height: 90vh;
+
+}
+section{
+    display: flex;
+    gap:20px;
+    
+}
+section>span{
+    color: white;
+    height: 26px;
+    width: 26px;
+    background-color: #696b6c;
+    border-radius: 5px;
+}
+#rr{
+    color: rgb(0, 153, 255);
+    border-radius: 50%;
+}
+.one{
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    gap: 20px;
+}
+.one>section>h1{
+    color: #aeaeb2;
+}
+.forme{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.forme>.f>h1{
+    color: white;
+}
+.forme>section>h1{
+    color: #aeaeb2;
+}
+.contendor{
+    display: flex;
+    padding-left: 50px;
+    width: 1750px;
+
+}
+.uno{
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    width: 1500px;
+}
+.sep{
+    display: flex;
+    gap: 800px;
+}
+.arre{
+    align-items: center;
+    display: flex;
+    height: 35px;
+}
+.arre>div{
+    border: 1px solid;
+}
+.arre>h1{
+    color: white;
+}
+
+.dos{
+    display: flex;
+    width: 700px;
+    background-color: #3c3c3e;
+}
+.sect{
+    display: flex;
+    flex-direction: column;
+    width:500px ;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #313135;
+}
+.sect>p{
+    padding-left: 15px;
+    color: white;
+}
+.sect>h1{
+    padding-left: 15px;
+}
+.lin{
+    padding-top: 20px;
+}
+.img{
+    width: 200px;
+    height: 150px;
+    padding-left: 30px;
+    
+}
+.ale{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+div{
+    padding-top: 20px;
+    border: 1px solid #3c3c3e;
+}
+.anun{
+    display: flex;
+    width: 1100px;
+    border: 1px solid white;
+}
